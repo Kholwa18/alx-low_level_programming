@@ -1,3 +1,4 @@
 #!/bin/bash
-export -S -masm=intel $CFILE
+
+gcc -S -masm=intel $CFILE
 
